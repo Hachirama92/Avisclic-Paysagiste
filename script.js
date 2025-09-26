@@ -33,11 +33,11 @@ document.addEventListener('DOMContentLoaded', () => {
         companyLogo.classList.add('hidden'); 
     }
 
-    // ⭐⭐⭐ INFORMATIONS POUR FORMSPREE RESTAURATION ⭐⭐⭐
+    // ⭐⭐⭐ INFORMATIONS POUR FORMSPREE PAYSAGISTE ⭐⭐⭐
     // Ton URL Formspree fournie :
-    const FORMSPREE_ACTION_URL = 'https://formspree.io/f/mjkowodg'; 
+    const FORMSPREE_ACTION_URL = 'https://formspree.io/f/xovkvgwk'; 
     
-    // Noms des champs pour Formspree (pour la Restauration) :
+    // Noms des champs pour Formspree (pour Paysagiste) :
     const FORM_FIELD_NAMES = {
         note: 'Note_de_l_experience',             
         options: 'Options_d_amelioration',        
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         nomEntreprise: 'Nom_Entreprise_Client',   
         urlLogo: 'URL_Logo_Client',         
     };
-    // ⭐⭐⭐ FIN DES INFOS FORMSPREE RESTAURATION ⭐⭐⭐
+    // ⭐⭐⭐ FIN DES INFOS FORMSPREE PAYSAGISTE ⭐⭐⭐
 
 
     // Fonction pour mettre à jour l'affichage des étoiles
@@ -208,3 +208,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialisation
     resetApplication(); 
 });
+
